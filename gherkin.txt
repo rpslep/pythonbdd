@@ -1,0 +1,13 @@
+Scenario 1: Regular path
+	Given a user has started the  Full Retirement Age Calculator
+	When a valid year of birth is entered
+	And a valid birth month is entered
+	Then the retirement age including months as well as the retirement date are shown
+
+Scenario 2: Exit path
+	Given a user has started the Full Retirement Age Calculator
+	When 0 is entered
+	Then the program exits
+
+
+	
